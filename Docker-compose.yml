@@ -1,0 +1,10 @@
+version: '3'
+services:
+  restservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/vol/development

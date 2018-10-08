@@ -6,7 +6,7 @@ RUN  \
   apt-get -y upgrade && \
   apt-get install -y vim wget curl maven
 
-# attach volumes
+# attach volume
 VOLUME /vol/development
 
 # create working directory
